@@ -1,0 +1,29 @@
+{
+  "name": "code-space-lerna",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "陈佳宝 <cjb15770595346@163.com>",
+  "homepage": "https://github.com/960595939/CodeSpace#readme",
+  "license": "ISC",
+  "main": "es/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/960595939/CodeSpace.git"
+  },
+  "scripts": {
+    "build":"father-build build"
+  },
+  "bugs": {
+    "url": "https://github.com/960595939/CodeSpace/issues"
+  },
+  "devDependencies": {
+    "father-build": "^1.22.1"
+  }
+}
